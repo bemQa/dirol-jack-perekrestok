@@ -1,0 +1,305 @@
+@font-face {
+    font-family: 'AvantGardeGothicC';
+    src: url('https://perekrestok.dirol-promo.ru/fonts/AvantGardeGothicC-DemiOblique.eot');
+    src: url('https://perekrestok.dirol-promo.ru/fonts/AvantGardeGothicC-DemiOblique.eot?#iefix') format('embedded-opentype'),
+        url('https://perekrestok.dirol-promo.ru/fonts/AvantGardeGothicC-DemiOblique.woff2') format('woff2'),
+        url('https://perekrestok.dirol-promo.ru/fonts/AvantGardeGothicC-DemiOblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AvantGardeGothicC';
+    src: url('https://perekrestok.dirol-promo.ru/fonts/AvantGardeGothicC.eot');
+    src: url('https://perekrestok.dirol-promo.ru/fonts/AvantGardeGothicC.eot?#iefix') format('embedded-opentype'),
+        url('https://perekrestok.dirol-promo.ru/fonts/AvantGardeGothicC.woff2') format('woff2'),
+        url('https://perekrestok.dirol-promo.ru/fonts/AvantGardeGothicC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent
+}
+
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none
+}
+
+body {
+    font-family: 'AvantGardeGothicC';
+    font-weight: normal;
+    font-style: normal;
+    background-color: transparent;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    box-sizing: content-box;
+    height: 100%;
+    color: #fff;
+}
+
+.container.uf-container.container--custom {
+    color: #fff;
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    box-sizing: content-box;
+    padding: 0 15px;
+}
+
+@media screen and (max-width:320px) {
+    .container.uf-container.container--custom {
+        width: 280px;
+    }
+}
+
+.container.uf-container.container--custom::-webkit-scrollbar {
+    width: 0;
+}
+
+.container-tutorial__text {
+    font-family: 'AvantGardeGothicC';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.container-tutorial__text p {
+    margin-bottom: 20px;
+}
+
+.dropzone.dropzone--custom.dz-clickable {
+    background-color: transparent;
+    border: 2px dashed #fff;
+    text-align: center;
+    border-radius: 0;
+    transform: rotate(-5deg) skewX(-10deg);
+}
+
+.dropzone.dropzone--custom.dz-clickable.dz-started {
+    border: 2px dashed transparent;
+}
+
+.dropzone .dz-preview.dz-image-preview {
+    margin: 16px auto;
+    border-radius: 0;
+    border: 0;
+}
+
+@media screen and (max-width:768px) {
+    .dropzone .dz-preview.dz-image-preview {
+        width: 200px;
+    }
+}
+
+.dropzone .dz-preview .dz-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 0;
+}
+
+.dropzone .dz-preview .dz-remove {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 0 !important;
+    font-weight: bold;
+    background-color: #E51435;
+    border-color: #E51435;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+    border-radius: 0;
+    z-index: 21;
+    color: #fff;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.dropzone .dz-preview .dz-remove::before {
+    content: 'X';
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.dropzone .dz-preview .dz-remove:hover {
+    background: #E51435, 90%;
+    text-decoration: none;
+}
+
+.uf-button-wrapper.button-wrapper--custom {
+    text-align: center
+}
+
+.uf-button-submit.button-submit--custom {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 240px;
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background: #ED1B31;
+    transition: all .2s linear;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    border-radius: 0;
+    transform: rotate(-5deg) skewX(-10deg);
+}
+
+.uf-button-submit.button-submit--custom:hover,
+.uf-button-submit.button-submit--custom:focus {
+    background: #ED1A00;
+}
+
+.uf-switchToManuallyButton-wrapper.switchToManuallyButton-wrapper--custom {
+    margin: 20px 0;
+}
+
+.dropzone.dz-started .dz-message span {
+    position: relative;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    color: #FFE500;
+    transform: rotate(-5deg) skewX(-10deg);
+}
+
+.uf-switchToManuallyButton-wrapper.switchToManuallyButton-wrapper--custom button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 260px;
+    width: 100%;
+    height: 16px;
+    margin: auto;
+    padding: 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    color: #FFE500;
+    background: transparent;
+    transition: all .2s linear;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    text-decoration: underline;
+    transform: rotate(-5deg) skewX(-10deg);
+}
+
+.dropzone.dz-started .dz-message span:hover {
+    text-decoration: underline;
+}
+
+.uf-switchToManuallyButton-wrapper.switchToManuallyButton-wrapper--custom button:hover {
+    text-decoration: none;
+}
+
+.uf-controls-wrapper {
+    position: relative;
+    margin-top: 20px;
+    transform: rotate(-5deg) skewX(-10deg);
+    z-index: 1;
+}
+
+.uf-controls-wrapper .form-control {
+    max-width: 280px;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px !important;
+    font-family: 'AvantGardeGothicC';
+    font-size: 16px;
+    line-height: 1;
+    color: #000;
+    background: #fff;
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition: all .2s linear;
+    margin: 5px auto;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+
+@media screen and (max-width:320px) {
+    .uf-controls-wrapper .form-control {
+        max-width: 260px;
+    }
+}
+
+.uf-controls-wrapper .form-control:focus {
+    border: 1px solid #009640;
+}
+
+.input-group.date {
+    /*overflow: hidden;*/
+    margin: 5px auto;
+    width: 100%;
+    min-width: 240px;
+    max-width: 280px;
+}
+
+@media screen and (max-width:320px) {
+    .input-group.date {
+        min-width: 220px;
+        max-width: 260px;
+    }
+}
+
+.input-group.date input {
+    margin: 0;
+    min-width: 240px;
+}
+
+@media screen and (max-width:320px) {
+    .input-group.date input {
+        min-width: 220px;
+    }
+}
+
+.input-group.date .input-group-addon {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 1px solid #C4C4C4;
+    border-left: none;
+}
+
+.bootstrap-datetimepicker-widget {
+    z-index: 9999;
+    background: #fefefe;
+    color: #000;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+    width: 17em;
+}
