@@ -1809,6 +1809,10 @@ table td:nth-child(3) {
     transform: rotate(-5deg);
 }
 
+.product-img.no-rotate {
+    transform: none;
+}
+
 .product-name {
     font-style: italic;
     font-size: 40rem;
