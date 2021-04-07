@@ -1738,7 +1738,7 @@ table td:nth-child(3) {
 
 .iframe-wrap {
     height: 100%;
-    min-height: 340px;
+    min-height: 390px;
     max-width: 400px;
     width: 100%;
     margin: auto;
@@ -1746,7 +1746,7 @@ table td:nth-child(3) {
 
 .iframe-wrap iframe {
     height: 100vh;
-    max-height: 340px;
+    max-height: 390px;
     width: 100%;
 }
 
