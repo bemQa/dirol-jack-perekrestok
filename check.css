@@ -375,3 +375,20 @@ app-root dropzone>.dropzone.dz-wrapper.dz-started .dz-message {
     order: 1;
     margin: 20px 0;
 }
+
+.angular-uf-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+app-root select {
+    width: 240px;
+    height: 50px;
+    margin: 0 auto 25px;
+    padding: 0 30px;
+    border: 1px solid transparent;
+    border-radius: 0;
+    transform: rotate(-5deg) skewX(-10deg);
+}
